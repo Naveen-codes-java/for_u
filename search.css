@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+#search-input {
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#book-list {
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+#book-list li {
+    margin-bottom: 10px;
+}
+
+#book-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+#book-list li a:hover {
+    color: red;
+}
+section img {
+    height: 300px;
+    width: 200px;
+    margin-left: 2em;
+    border-radius: 5px;
+}
+
